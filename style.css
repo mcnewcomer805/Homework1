@@ -1,90 +1,102 @@
 * {
-    box sizing: border-box;
+    box-sizing: border-box;
     text-align: center;
 }
 
-.newsSection {
-    border-style: solid;
-    border-width: 5px;
+.top {
+    color: rgb(95, 90, 90);
+    text-align: center;
+    background-color: rgb(240, 235, 235);
+    padding: 30px;
+ 
+}
+
+.navs {
+    color: rgb(95, 90, 90);
+    text-align: center;
+    background-color: rgb(240, 235, 235);
+    padding: 30px;
+}
+
+.sectionL {
+    color: rgb(95, 90, 90);
+    text-align: center;
+    background-color: rgb(240, 235, 235);
+    padding: 1px 30px 30px 30px;
     width: 50%;
-    padding: 5px;
-    float: left;
-    text-align: center;
+    height: 200px;
 }
 
-.newsArticle {
-    border-style: solid;
-    border-width: 3px;
-    padding: 10px;
-    width: 95%;
-    align-items: center;
-    background-color: rgb(95, 86, 86);
+.articleI {
+    color: rgb(253, 250, 250);
+    text-align: center;
+    background-color: rgb(71, 68, 68);
+    padding: 0px 20px 0px 20px;
+    /* width: 100%; */
+    height: 130px;
+    margin: -20px auto;
+}
+
+.container {
+    background-color:#eee;
+    color:rgb(37, 33, 33);
+    height: 30px;
+}
+
+.hTwo {
+    display: inline;
+    font-size: 1.5em;
+    background-color:#eee;
+    color:rgb(37, 33, 33);
+    height: 30px;
+    top: 5px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.hOne {
+    display: inline;
+
+    font-size: 2em;
+    background-color:#eee;
+    color:rgb(37, 33, 33);
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    z-index: 5;
+}
+
+.hThree {
+    display: inline;
+    font-size: 1.17em;
+    color:rgb(37, 33, 33);
+    text-align: center;
+    background-color: #eee;
+    padding: 15px 75px 15px 75px;
+    margin: 5px;
 }
 
 .asideNews {
-    border-style: solid;
-    border-width: 3px;
-    width: 40%;
+    display: inline;
+    color: rgb(37, 33, 33);
+    text-align: center;
+    background-color: #eee;
+    margin: -199px 5px -34px 5px;
+    bottom: -122px;
+    width: 49%;
+    height: 199px;
+    display: inline;
+    float: right;
+}
+
+.clearFix ::after {
+    content: "";
     display: block;
-    float: right;
-    text-align: center;
-    padding: 120px 45px 120px 45px;
+    clear: both;
 }
 
-.containerNav {
-    display: flex;
-
-    padding: 8px;
-}
-
-.h3Header{
-    align-items: center;
-}
-
-.navButtons {
-    width: 33.33%;
-}
-
-.h1 {
-    display: inline;
-    text-align: center;
+.footer {
     background-color: #eee;
-    padding: 15px 75px 15px 75px;
-    margin: 5px;
-
-}
-
-.h2 {
-    display: inline;
+    color: rgb(37, 33, 33);
     text-align: center;
-    background-color: #eee;
-    padding: 15px 75px 15px 75px;
-    margin: 5px;
-
-}
-
-.h3 {
-    display: inline;
-    text-align: center;
-    background-color: #eee;
-    padding: 15px 75px 15px 75px;
-    margin: 5px;
-c}
-
-.hArticles {
-    background-color: #eee;
-    padding: 5px;
-    margin: 5px;
-}
-
-.bFooter {
-    padding: 0px;
-    text-align: center;
-    border-style: solid;
-    margin: 0px;
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    bottom: 0;
-    float: right;
 }
