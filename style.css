@@ -1,0 +1,90 @@
+* {
+    box sizing: border-box;
+    text-align: center;
+}
+
+.newsSection {
+    border-style: solid;
+    border-width: 5px;
+    width: 50%;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+
+.newsArticle {
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    width: 95%;
+    align-items: center;
+    background-color: rgb(95, 86, 86);
+}
+
+.asideNews {
+    border-style: solid;
+    border-width: 3px;
+    width: 40%;
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 120px 45px 120px 45px;
+}
+
+.containerNav {
+    display: flex;
+
+    padding: 8px;
+}
+
+.h3Header{
+    align-items: center;
+}
+
+.navButtons {
+    width: 33.33%;
+}
+
+.h1 {
+    display: inline;
+    text-align: center;
+    background-color: #eee;
+    padding: 15px 75px 15px 75px;
+    margin: 5px;
+
+}
+
+.h2 {
+    display: inline;
+    text-align: center;
+    background-color: #eee;
+    padding: 15px 75px 15px 75px;
+    margin: 5px;
+
+}
+
+.h3 {
+    display: inline;
+    text-align: center;
+    background-color: #eee;
+    padding: 15px 75px 15px 75px;
+    margin: 5px;
+c}
+
+.hArticles {
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bFooter {
+    padding: 0px;
+    text-align: center;
+    border-style: solid;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    float: right;
+}
